@@ -19,7 +19,7 @@
       </v-btn>
 
       <v-btn
-          href="#"
+          href="/background"
           text
       >
         経歴
