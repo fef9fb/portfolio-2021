@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+$bg-color1: rgb(207, 231, 232);
+$bg_color2: rgb(232, 231, 225);
+$bg_color3: rgb(224, 209, 197);
+$bg_color4: rgb(200, 217, 210);
+$bg_color5: rgb(217, 207, 214);
+$bg-col-main: rgba(255, 255, 255, .5);
+
+$title_color1: rgb(64, 102, 134);
+$title_color2: rgb(208, 153, 149);
+$title_color3: rgb(51, 158, 148);
+$title_color4: rgb(34, 172, 174);
+$title_color5: rgb(194, 74, 131);
+
+
+.container-wrapper {
+  min-height: 100vh;
+
+  &.bg-1 {
+    background-color: $bg-color1;
+  }
+
+  &.bg-2 {
+    background-color: $bg-color2;
+  }
+
+  &.bg-3 {
+    background-color: $bg-color3;
+  }
+
+  &.bg-4 {
+    background-color: $bg-color4;
+  }
+
+  &.bg-5 {
+    background-color: $bg-color5;
+  }
+}
+
+.col .col-main {
+  background-color: $bg-col-main;
+  border-radius: 24px;
+  padding: 12px;
+}
