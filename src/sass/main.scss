@@ -44,3 +44,11 @@ $title_color5: rgb(194, 74, 131);
   padding: 12px;
   min-height: 500px;
 }
+
+h1 {
+  position: fixed;
+  width: 1200px;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}

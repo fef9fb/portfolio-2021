@@ -1,5 +1,8 @@
 <template>
   <div>
+    <h1 v-if="title" class="display-2 font-weight-bold">
+      {{ title }}
+    </h1>
     <div class="container-wrapper bg-1 pt-16">
       <v-container class="pt-16">
         <v-row class="text-center">
@@ -7,9 +10,6 @@
               cols="12"
               class="mb-5"
           >
-            <h2 class="mb-3">
-              プロフィール
-            </h2>
             <div class="col-main">
               <v-avatar
                   size="128"
@@ -40,6 +40,7 @@
 <script>
 export default {
   name: 'Home',
+  props: ['title'],
 }
 </script>
 <style scoped lang="scss">

@@ -9,12 +9,14 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+    props: { title: 'TOP' }
   },
   {
     path: '/person',
     name: 'Person',
-    component: Person
+    component: Person,
+    props: { title: '人物' }
   }
 ]
 

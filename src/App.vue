@@ -42,9 +42,6 @@
     </v-app-bar>
 
     <v-main>
-      <h1 class="display-2 font-weight-bold">
-        人物
-      </h1>
       <router-view/>
     </v-main>
   </v-app>
@@ -54,22 +51,19 @@
 
 export default {
   name: 'App',
+  props: [ 'title' ],
 
   data: () => ({
-    //
   }),
+
+  created() {
+    console.log(this.$route)
+  }
+
 };
 </script>
 
 <style scoped lang="scss">
-
-h1 {
-  position: fixed;
-  width: 1200px;
-  top: 64px;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 .theme--light.v-app-bar.v-toolbar.v-sheet {
   background-color: rgba(255, 255, 255, 0);
