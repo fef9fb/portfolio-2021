@@ -4,11 +4,15 @@
         app
         flat
     >
-      <v-toolbar-title>Portfolio</v-toolbar-title>
+      <v-toolbar-title>
+        <a href="/">
+          Portfolio
+        </a>
+      </v-toolbar-title>
       <v-spacer></v-spacer>
 
       <v-btn
-          href="#"
+          href="/person"
           text
       >
         人物
@@ -41,22 +45,15 @@
       <h1 class="display-2 font-weight-bold">
         人物
       </h1>
-      <Person/>
+      <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld';
-import Person from './components/Person';
 
 export default {
   name: 'App',
-
-  components: {
-    // HelloWorld,
-    Person,
-  },
 
   data: () => ({
     //
