@@ -8,13 +8,33 @@
       <v-spacer></v-spacer>
 
       <v-btn
-          href="https://github.com/vuetifyjs/vuetify/releases/latest"
-          target="_blank"
+          href="#"
           text
       >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        人物
       </v-btn>
+
+      <v-btn
+          href="#"
+          text
+      >
+        経歴
+      </v-btn>
+
+      <v-btn
+          href="#"
+          text
+      >
+        Blog
+      </v-btn>
+
+      <v-btn
+          href="#"
+          text
+      >
+        Github
+      </v-btn>
+
     </v-app-bar>
 
     <v-main>
