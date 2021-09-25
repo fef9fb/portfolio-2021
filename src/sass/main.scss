@@ -5,6 +5,7 @@ $bg_color2: rgb(232, 231, 225);
 $bg_color3: rgb(224, 209, 197);
 $bg_color4: rgb(200, 217, 210);
 $bg_color5: rgb(217, 207, 214);
+$bg_color6: rgb(224, 213, 234);
 $bg-col-main: rgba(255, 255, 255, .5);
 
 $title_color1: rgb(64, 102, 134);
@@ -12,6 +13,7 @@ $title_color2: rgb(208, 153, 149);
 $title_color3: rgb(51, 158, 148);
 $title_color4: rgb(34, 172, 174);
 $title_color5: rgb(194, 74, 131);
+$title_color6: rgb(41, 167, 157);
 
 
 .container-wrapper {
@@ -19,22 +21,62 @@ $title_color5: rgb(194, 74, 131);
 
   &.bg-1 {
     background-color: $bg-color1;
+    h2, h3 {
+      color: $title_color1;
+    }
+    h4 {
+      color: rgba($title_color1, .8);
+    }
   }
 
   &.bg-2 {
     background-color: $bg-color2;
+    h2, h3 {
+      color: $title_color2;
+    }
+    h4 {
+      color: rgba($title_color2, .8);
+    }
   }
 
   &.bg-3 {
     background-color: $bg-color3;
+    h2, h3 {
+      color: $title_color3;
+    }
+    h4 {
+      color: rgba($title_color3, .8);
+    }
   }
 
   &.bg-4 {
     background-color: $bg-color4;
+    h2, h3 {
+      color: $title_color4;
+    }
+    h4 {
+      color: rgba($title_color4, .8);
+    }
   }
 
   &.bg-5 {
     background-color: $bg-color5;
+    h2, h3 {
+      color: $title_color5;
+    }
+    h4 {
+      color: rgba($title_color5, .8);
+    }
+  }
+
+  &.bg-6 {
+    background-color: $bg-color6;
+    h2, h3 {
+      color: $title_color6;
+    }
+    h4 {
+      color: rgba($title_color6, .8);
+    }
   }
 }
 

@@ -10,6 +10,36 @@
               cols="12"
               class="mb-5"
           >
+            <h2 class="mb-2">スキルセット</h2>
+            <div class="col-main">
+              <h3 class="mb-1">実務経験3年以上</h3>
+              <p>
+                PHP, Laravel, JavaScript, Vue.js,<br>
+                MySQL, Git
+              </p>
+              <h3 class="mb-1">実務経験1年以上</h3>
+              <p>
+                C, HTML, CSS, Sass, jQuery,<br>
+                WebPack, PostgreSQL, Linux(Redhat)
+              </p>
+              <h3 class="mb-1">ビギナー</h3>
+              <p>
+                Java, Python, Swift, GAS,<br>
+                AWS, Linux(Debian)
+              </p>
+            </div>
+          </v-col>
+
+        </v-row>
+      </v-container>
+    </div>
+    <div class="container-wrapper bg-5 pt-16">
+      <v-container class="pt-16">
+        <v-row class="text-center">
+          <v-col
+              cols="12"
+              class="mb-5"
+          >
             <h2 class="mb-2">大学</h2>
             <div class="col-main">
               <h3 class="mb-1">1年</h3>
@@ -24,13 +54,13 @@
                 プログラマという仕事に着きたいと考えて1年の頃に履修した情報学基礎の先生の授業をすべて受ける。<br>
                 先生と仲良くなって勉強のアドバイスをもらうようになった。
               </p>
-              <h4 class="mb-1">3年</h4>
+              <h3 class="mb-1">3年</h3>
               <p>
                 自分の学部のゼミを諦めて情報学の先生のゼミを受ける。<br>
                 プログラマ一本に絞って就活をして落ち続ける。1社から内定をもらってそこへ就職希望を出す。<br>
                 基本情報に落ちる。
               </p>
-              <h4 class="mb-1">4年</h4>
+              <h3 class="mb-1">4年</h3>
               <p>
                 内定後、就職先にバイトとして勤務。<br>
                 基本情報2回目受験して落ちる。
@@ -41,7 +71,7 @@
         </v-row>
       </v-container>
     </div>
-    <div class="container-wrapper bg-5 pt-16">
+    <div class="container-wrapper bg-6 pt-16">
       <v-container class="pt-16">
         <v-row class="text-center">
           <v-col
