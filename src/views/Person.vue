@@ -91,13 +91,17 @@
         </v-row>
       </v-container>
     </div>
+
+    <ScrollNextButton />
   </div>
 </template>
 
 <script>
+import ScrollNextButton from '@/components/ScrollNextButton';
 export default {
   name: 'Person',
   props: ['title'],
+  components: { ScrollNextButton },
   data: () => ({}),
 }
 </script>

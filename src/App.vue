@@ -5,9 +5,12 @@
         flat
     >
       <v-toolbar-title>
-        <a href="/">
+        <v-btn
+            href="/"
+            text
+        >
           Portfolio
-        </a>
+        </v-btn>
       </v-toolbar-title>
       <v-spacer></v-spacer>
 
@@ -44,6 +47,7 @@
     <v-main>
       <router-view/>
     </v-main>
+
   </v-app>
 </template>
 
@@ -51,15 +55,9 @@
 
 export default {
   name: 'App',
-  props: [ 'title' ],
+  props: ['title'],
 
-  data: () => ({
-  }),
-
-  created() {
-    console.log(this.$route)
-  }
-
+  data: () => ({}),
 };
 </script>
 
@@ -72,4 +70,5 @@ export default {
 .v-main {
   padding: 0 !important;
 }
+
 </style>

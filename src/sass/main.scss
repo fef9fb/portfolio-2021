@@ -84,7 +84,7 @@ $title_color6: rgb(41, 167, 157);
   background-color: $bg-col-main;
   border-radius: 24px;
   padding: 12px;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 h1 {
@@ -94,3 +94,10 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.scroll-btn {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+}
+

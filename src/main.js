@@ -3,9 +3,11 @@ import App from './App.vue'
 import vuetify from './plugins/vuetify'
 import router from './router'
 import TitleColor from './mixin/TitleColor';
+import ScrollNext from "@/mixin/ScrollNext";
 Vue.config.productionTip = false
 
 Vue.mixin(TitleColor);
+Vue.mixin(ScrollNext);
 
 Vue.directive('scroll', {
   inserted: function (el, binding) {
@@ -22,5 +24,5 @@ Vue.directive('scroll', {
 new Vue({
   vuetify,
   router,
-  render: h => h(App, {el: '#app'}),
+  render: h => h(App),
 }).$mount('#app')

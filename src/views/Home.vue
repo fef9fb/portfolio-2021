@@ -27,7 +27,9 @@
                 バックエンドエンジニア5年<br>
                 フロントエンドエンジニア1.5年<br>
                 お酒が飲めないエンジニアのポートフォリオです。<br>
-                自己満足半分、よく聞かれることをまとめました。
+                経歴やスキルセットの他<br>
+                なぜエンジニアになったのか？好きなことは？など<br>
+                よく聞かれることをまとめました。
               </p>
             </div>
           </v-col>
@@ -35,6 +37,7 @@
         </v-row>
       </v-container>
     </div>
+
   </div>
 </template>
 
@@ -46,6 +49,7 @@ export default {
 </script>
 <style scoped lang="scss">
 @use '../sass/main' as main;
+
 h1.color-first {
   color: main.$title_color1;
   transition: color 0.2s ease-out;

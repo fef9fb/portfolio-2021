@@ -12,17 +12,17 @@
           >
             <h2 class="mb-2">スキルセット</h2>
             <div class="col-main">
-              <h3 class="mb-1">実務経験3年以上</h3>
+              <h3 class="mb-2">実務経験3年以上</h3>
               <p>
                 PHP, Laravel, JavaScript, Vue.js,<br>
                 MySQL, Git
               </p>
-              <h3 class="mb-1">実務経験1年以上</h3>
+              <h3 class="mb-2">実務経験1年以上</h3>
               <p>
                 C, HTML, CSS, Sass, jQuery,<br>
-                WebPack, PostgreSQL, Linux(Redhat)
+                webpack, PostgreSQL, Linux(Redhat)
               </p>
-              <h3 class="mb-1">ビギナー</h3>
+              <h3 class="mb-2">ビギナー</h3>
               <p>
                 Java, Python, Swift, GAS,<br>
                 AWS, Linux(Debian)
@@ -71,7 +71,7 @@
         </v-row>
       </v-container>
     </div>
-    <div class="container-wrapper bg-6 pt-16">
+    <div id="third-section" class="container-wrapper bg-6 pt-16">
       <v-container class="pt-16">
         <v-row class="text-center">
           <v-col
@@ -112,13 +112,18 @@
         </v-row>
       </v-container>
     </div>
+
+    <ScrollNextButton />
+
   </div>
 </template>
 
 <script>
+import ScrollNextButton from '../components/ScrollNextButton';
 export default {
   name: 'Background',
   props: ['title'],
+  components: { ScrollNextButton },
 }
 </script>
 <style scoped lang="scss">

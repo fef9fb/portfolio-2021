@@ -23,7 +23,7 @@ const routes = [
     path: '/background',
     name: 'Background',
     component: Background,
-    props: { title: '経歴'}
+    props: { title: '経歴' }
   }
 ]
 
