@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1 v-if="title" class="display-2 font-weight-bold">
+    <h1 v-if="title" v-scroll="changeColor" id="h1-title"  class="display-2 font-weight-bold color-first">
       {{ title }}
     </h1>
-    <div class="container-wrapper bg-2 pt-16">
+    <div id="first-section" class="container-wrapper bg-2 pt-16">
       <v-container>
         <v-row class="text-center">
 
@@ -52,8 +52,7 @@
         </v-row>
       </v-container>
     </div>
-
-    <div class="container-wrapper bg-3 pt-16">
+    <div id="second-section" class="container-wrapper bg-3 pt-16">
       <v-container>
         <v-row class="text-center">
 
@@ -104,4 +103,14 @@ export default {
 </script>
 <style scoped lang="scss">
 @use '../sass/main' as main;
+h1.color-first {
+  color: main.$title_color2;
+  transition: color 0.2s ease-out;
+}
+
+h1.color-second {
+  color: main.$title_color3;
+  transition: color 0.2s ease-out;
+}
+
 </style>

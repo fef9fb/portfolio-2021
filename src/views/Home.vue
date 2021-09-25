@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 v-if="title" class="display-2 font-weight-bold">
+    <h1 v-if="title" class="display-2 font-weight-bold color-first">
       {{ title }}
     </h1>
     <div class="container-wrapper bg-1 pt-16">
@@ -46,4 +46,8 @@ export default {
 </script>
 <style scoped lang="scss">
 @use '../sass/main' as main;
+h1.color-first {
+  color: main.$title_color1;
+  transition: color 0.2s ease-out;
+}
 </style>
