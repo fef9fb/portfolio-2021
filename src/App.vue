@@ -29,13 +29,6 @@
       </v-btn>
 
       <v-btn
-          href="#"
-          text
-      >
-        Blog
-      </v-btn>
-
-      <v-btn
           href="https://github.com/fef9fb"
           text
       >
